@@ -22,7 +22,7 @@
          <children>
             <HBox>
                <children>
-                  <Button mnemonicParsing="false" onAction="#handleSimula" text="Simula" />
+                  <Button fx:id="btnSimula" mnemonicParsing="false" onAction="#doSimula" text="Simula" />
                </children>
             </HBox>
             <Label text="Risultati">
